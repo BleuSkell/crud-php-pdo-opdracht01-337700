@@ -6,7 +6,7 @@
     define('DB_HOST', 'localhost');
     define('DB_USER', 'root');
     define('DB_PASS', '');
-    define('DB_NAME', 'mvcframework-2309C');
+    define('DB_NAME', 'nailstudio');
 
 
     /**

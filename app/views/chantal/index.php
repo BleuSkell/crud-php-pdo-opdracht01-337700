@@ -6,7 +6,7 @@
 
             <h3><?= $data['title']; ?></h3>
 
-            <form action="">
+            <form action="create.php">
                 <h5>Kies 4 basiskleuren voor uw nagels:</h5>
                 <input type="color" name="color1" id="color1" class="color1">
                 <input type="color" name="color2" id="color2" class="color2">
@@ -23,7 +23,7 @@
                 <input type="date" name="appointment" id="appointment">
 
                 <h5>Soort behandeling:</h5>
-                <input type="checkbox" name="treatment" id="treatment" class="form-check-input">
+                <input type="checkbox" name="treatment" id="treatment" class="form-check-input" value="option1">
                 <label for="treatment">
                     Nagclbilt arrangement (tcrmilnbctaling mogclijk) C180
                     Luxe manicure (massage en handoakkins)
@@ -37,8 +37,6 @@
         </div>
     </div>
 </div>
-
-<link rel="stylesheet" href="style.css">
 
 <a href="<?= URLROOT; ?>/Homepages/index">Homepage</a>
 
