@@ -19,4 +19,4 @@
      * Hieronder wordt de naam van de virtualhost-naam
      * in de constante URLROOT gezet.
      */
-    define('URLROOT', 'http://rra-test.com');
+    define('URLROOT', 'http://blingblingnagelstudiochantal.org');
