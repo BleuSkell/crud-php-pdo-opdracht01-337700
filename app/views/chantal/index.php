@@ -6,7 +6,7 @@
 
             <h3><?= $data['title']; ?></h3>
 
-            <form action="create.php">
+            <form action="<?= URLROOT ?>/chantal/index" method="post">
                 <h5>Kies 4 basiskleuren voor uw nagels:</h5>
                 <input type="color" name="color1" id="color1" class="color1">
                 <input type="color" name="color2" id="color2" class="color2">
@@ -41,4 +41,3 @@
 <a href="<?= URLROOT; ?>/Homepages/index">Homepage</a>
 
 <?php require APPROOT . '/views/includes/footer.php'; ?>
-

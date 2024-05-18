@@ -16,5 +16,6 @@
 </table>
 
 <a href="<?= URLROOT; ?>/Homepages/index">Homepage</a>
+<a href="<?= URLROOT; ?>/chantal/index">Maak een nieuwe afspraak</a>
 
 <?php require APPROOT . '/views/includes/footer.php'; ?>
