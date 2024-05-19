@@ -4,11 +4,16 @@
 
 <table class="table table-hover">
     <thead>
-        <th>color</th>
+        <th>color1</th>
+        <th>color2</th>
+        <th>color3</th>
+        <th>color4</th>
         <th>phone</th>
         <th>mail</th>
         <th>date</th>
-        <th>treatment</th>
+        <th>treatment1</th>
+        <th>treatment2</th>
+        <th>treatment3</th>
     </thead>
     <tbody>
         <?= $data['dataRows']; ?>
